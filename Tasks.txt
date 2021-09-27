@@ -1,0 +1,35 @@
+
+Task 1:
+
+This application is supposed to keep track of persons and their relationships
+(in memory).
+
+The relationships it needs to keep track of are: marriage and parenthood.
+It starts out empty. Persons are added to memory using the method addPerson in
+HeritageService. To add a set of persons, you need to call addPerson once per
+person. You also need to be able to register relationships between people.
+You can choose how to do that.
+
+implement HeritageService so that you can run the following:
+
+HeritageService service = new HeritageService;
+service.addPerson(Person person)
+service.addPerson(Person person)
+....
+
+and then you should be able to do
+
+service.areRelated(person1,person2) and get true if they are, false if not.
+
+Your task is to:
+
+- Fully implement the Person class
+
+- implement HeritageService so that the above code works. Note that it doesn't need to work exactly like that,
+  but at least close
+
+- implement a unit test that runs the above code
+
+(more tasks will follow later)
+
+
